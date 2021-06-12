@@ -2,18 +2,21 @@
   <div id="app">
     <Counter/>
     <DoubleCounter/>
+    <TotalCounter/>
   </div>
 </template>
 
 <script>
 import Counter from './components/Counter.vue'
 import DoubleCounter from './components/DoubleCounter.vue'
+import TotalCounter from './components/TotalCounter.vue'
 
 export default {
   name: 'app',
   components: {
     Counter,
-    DoubleCounter
+    DoubleCounter,
+    TotalCounter
   }
 }
 </script>
